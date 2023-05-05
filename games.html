@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+      <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+        <title>SkelacticGames | Games</title>
+        <style>
+            		ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0a012e;
+  box-shadow: 0 0 30px rgb(0, 247, 255);
+  border-radius: 30px;
+}
+
+.glow {
+  font-size: 40px;
+  color: #0a012e;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #06a6ce, 0 0 20px #00b8e6, 0 0 25px #00b8e6, 0 0 30px #00d7e6, 0 0 35px #00e6e6;
+  }
+  to {
+    text-shadow: 0 0 10px #fff, 0 0 15px #4df3ff, 0 0 20px #4deaff, 0 0 25px #4de4ff, 0 0 30px #4deaff, 0 0 35px #4ddbff, 0 0 40px #4dd5ff;
+  }
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+}
+/* Add a gray right border to all list items, except the last item (last-child) */
+li a:hover {
+  background-color: #10126d;
+}
+/* a:visited {
+  color: #0004ff;
+} */
+            body{
+                background-color: #0f0241;
+                font-family: 'Comic Sans', cursive;
+                color: #ffffff;
+            }
+
+        </style>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./news.html">News</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./games.html">Games</a></li>
+            <li><a href="https://chat.openai.com">ChatGPT</a></li>
+            <li style="float:right"><a href="/signup.html">Sign Up</a></li>
+            <li style="float:right"><a href="/login.html">Log In</a></li>
+        </ul>
+        <h1 class="glow">Games</h1>
+        <h3>Downloadable Games</h3>
+        <a>There Are No Downloadable Games At This Given Time</a>
+        <br>
+        <h3>Demos</h3>
+        <a style="color: #0004ff;" href="signup.html">Sign Up</a> <a>To View Demos</a>
+        <h3>Games In Development</h3>
+        <a>Secret Side</a>
+        <br>
+        <iframe frameborder="0" src="https://itch.io/embed/2027606?bg_color=222222&amp;fg_color=ffffff&amp;link_color=004bf2&amp;border_color=333333" width="552" height="167"><a href="https://skelactic.itch.io/secret-side">Secret Side by Skelactic</a></iframe>
+    </body>
+
+</html>
