@@ -69,6 +69,7 @@ body{
             }
 </style>
 <body>
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
     <a href="./index.html"><button type="button" id="back">BACK</button></a>
     <div class="container">
         <h2>Login</h2>
@@ -84,10 +85,24 @@ body{
            <div class="btns">            
             <a href="https://UnrealisticGames.github.io/login"><button type="button" id="sign-up">Log In Using UnrealisticGames</button></a>
            </div>
-           <div class="btns">
-            <a href="./login.html"><button type="button" id="sign-up">Log In Using Google</button></a>
-           </div>
+           <div id="g_id_onload"
+     data-client_id="242304657356-cuid9vr7qpjh6spr2vmne3l4sqkj0o2r.apps.googleusercontent.com"
+     data-context="signin"
+     data-ux_mode="popup"
+     data-login_uri="https://skelactic.github.io/login.html"
+     data-auto_prompt="false">
+</div>
+
+<div class="g_id_signin"
+     data-type="standard"
+     data-shape="pill"
+     data-theme="filled_black"
+     data-text="signin_with"
+     data-size="large"
+     data-logo_alignment="left">
+</div>
             
+
 </body>
 
 </html>
